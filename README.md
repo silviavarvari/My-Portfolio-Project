@@ -4,8 +4,8 @@ A portfolio website using HTML, CSS, and JavaScript to showcase projects and ski
 # My-Portfolio
 Welcome to my portfolio website! This repository showcases my skills and projects in web development and design. Below you'll find an overview of the technologies used, features implemented, and instructions on how to view and contribute to the project.
 
-Technologies Used
-HTML5
+# Technologies Used
+- HTML5
 CSS3
 JavaScript (ES6+)
 CSS Grid and Flexbox
