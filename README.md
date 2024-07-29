@@ -6,15 +6,16 @@ Welcome to my portfolio website! This repository showcases my skills and project
 
 # Technologies Used
 - HTML5
-CSS3
-JavaScript (ES6+)
-CSS Grid and Flexbox
-Animations and Transitions
-Responsive Design
-UX/UI Principles
-Features
-Interactive Elements: Engaging user interactions using JavaScript.
-Custom Animations: Smooth transitions and animations for a dynamic experience.
-Responsive Layouts: Optimized for various devices and screen sizes.
-Advanced UX/UI: Implementing modern design principles for an intuitive user interface.
-Project Showcases: Detailed display of my projects with descriptions and visuals.
+- CSS3
+- JavaScript (ES6+)
+- CSS Grid and Flexbox
+- Animations and Transitions
+- Responsive Design
+- UX/UI Principles
+  
+# Features
+- Interactive Elements: Engaging user interactions using JavaScript.
+- Custom Animations: Smooth transitions and animations for a dynamic experience.
+- Responsive Layouts: Optimized for various devices and screen sizes.
+- Advanced UX/UI: Implementing modern design principles for an intuitive user interface.
+- Project Showcases: Detailed display of my projects with descriptions and visuals.
