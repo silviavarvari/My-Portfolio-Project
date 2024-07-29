@@ -1,6 +1,4 @@
 # My-Portfolio-Project
-A portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.
-
 Welcome to my portfolio website! This repository showcases my skills and projects in web development and design. Below you'll find an overview of the technologies used, features implemented, and instructions on how to view and contribute to the project.
 
 # Technologies Used
