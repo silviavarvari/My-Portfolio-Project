@@ -6,7 +6,9 @@ Welcome to my portfolio website! This repository showcases my skills and project
 
 Technologies Used
 -HTML5
+
 -CSS3
+
 -JavaScript (ES6+)
 -CSS Grid and Flexbox
 -Animations and Transitions
