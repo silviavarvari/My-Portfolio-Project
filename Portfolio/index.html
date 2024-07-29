@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Montserrat+Alternates:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!-- Header Begins -->
+    <header>
+        <div class="portfolio-container">
+            <div class="portfolio-row header-wrap">
+                <div class="brand-name">
+                    <a href="#" class="logo"> Silvia .</a>
+                </div>
+                <!-- Header Navigation Begins -->
+                <div class="portfolio-navbar">
+                    <ul>
+                        <li>
+                            <a href="#about" class="navbar-link active-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#resume" class="navbar-link">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="navbar-link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="navbar-link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="navbar-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Header Navigation Ends -->
+                <div class="navbar-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+                <button type="button" class="theme-toggle">
+                    <i class="lni lni-night"></i>
+                    <i class="lni lni-sun"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Ends -->
+
+    <!-- About Section Begins -->
+    <section id="about">
+        <div class="portfolio-container">
+            <div class="portfolio-row about-content">
+                <!-- Greetings and Introduction Begins -->
+                <div class="about-intro">
+                    <div class="about-text">
+                        <h1>Hello, 
+                            <p>I'm <span>Silvia .</span></p>
+                        </h1>
+                        <h3>Web Developer & E-Commerce Specialist</h3>
+                        <p> Welcome! I am a skilled full-stack web developer specializing in e-commerce solutions. Leveraging HTML5, CSS, JavaScript (ES6+), I create responsive, high-performance websites. My expertise extends to RESTful APIs and Git methodologies, ensuring robust and scalable web applications. Explore my portfolio to see how my technical proficiency can enhance your digital presence.</p>
+                    </div>
+                    <br>
+                    <div class="btn-container">
+                        <button
+                          class="btn btn-color-2"
+                          onclick="window.open('Img/CV.png')"
+                        >
+                          Download CV 
+                        </button>
+                        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                            Contact Info
+                          </button>
+                    </div>
+                </div>
+                <!-- Greetings and Introduction Ends -->
+                <div class="about-image">
+                    <img src="Img/profile-picture.png" alt="profile">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Ends -->
+
+    <!-- Resume Section Begins -->
+    <section id="resume">
+        <div class="portfolio-container">
+            <div class="portfolio-row">
+                <!-- Resume Intro Begins -->
+                <div class="resume-intro">
+                    <h2><strong>About Me</strong></h2>
+                    <div class="resume-text">
+                        <p>
+                            I am a skilled web developer specializing in HTML5, CSS3, JavaScript (ES6+), and modern frameworks. My expertise includes DOM manipulation, asynchronous programming, and integrating advanced features such as AJAX and jQuery for dynamic user interactions.
+                        </p>
+                        <br>
+                        <p>
+                            I have led web design projects on Shopify and Webflow, delivering tailored solutions that exceed client expectations. My work focuses on optimizing website performance, scalability, and security, ensuring superior user experiences through effective UX/UI design and responsive layouts.
+                        </p>
+                        <br>
+                        <p>My experience extends to creating and maintaining web layouts, debugging technical issues, and implementing Flexbox for layout flexibility. I collaborate closely with marketing teams to align strategies with business goals, contributing to successful e-Commerce outcomes through continuous improvement and innovation.
+                        </p>
+                    </div> 
+                    <div class="hello-btn">
+                        <a href="#contact">
+                            Let's Connect!
+                        </a>
+                    </div>
+                </div>  
+                <!-- Resume Inro Ends -->  
+
+                <!-- Resume Body Begins -->
+                 <div class="resume-body">
+                    <h2><strong>Qualification</strong></h2>
+                    <!-- Resume Heading Begins -->
+                     <div class="resume-heading">
+                        <button class="btn active" type="button" data-id="education">
+                            Education
+                        </button>
+                        <button class="btn" type="button" data-id="experience">
+                            Experience
+                        </button>
+                        <button class="btn" type="button" data-id="skills">
+                            Skills
+                        </button>
+                     </div>
+                     <!-- Resume Heading Ends -->
+
+                     <!-- Education Tab Begins -->
+                      <div class="resume-tab active" id="education">
+                        <div class="qualification-content">
+                            <h4 class="course">Diploma in Web Development </h4>
+                            <h6 class="institution">FASTTRACK IT</h6>
+                            <span class="years">Feb 2024 - Jul 2024</span>
+                        </div>
+                        <div class="qualification-content">
+                            <h4 class="course">Diploma in Web Design </h4>
+                            <h6 class="institution">IBAT College, Dublin </h6>
+                            <span class="years">Sep 2018 - Dec 2018</span>
+                        </div>
+                        <div class="qualification-content">
+                            <h4 class="course">Bachelor of Science in Transport Operations and Technology </h4>
+                            <h6 class="institution">DIT Bolton St</h6>
+                            <span class="years">Sep 2009 - May 2013</span>
+                        </div>
+                      </div>
+                    <!-- Education Tab Ends -->
+
+                    <!-- Experience Tab Begins -->
+                     <div class="resume-tab" id="experience">
+                        <div class="qualification-content">
+                            <h4 class="role">Ecommerce Web Developer</h4>
+                            <h6 class="organization">b-wave.io</h6>
+                            <span class="years">March 2020 - Present</span>
+                        </div>
+                        <div class="qualification-content">
+                            <h4 class="role">Web Developer</h4>
+                            <h6 class="organization">FASTTRACKIT Academy</h6>
+                            <span class="years">Feb 2024 - July  2024</span>
+                        </div>
+                        <div class="qualification-content">
+                            <h4 class="role">Web Designer</h4>
+                            <h6 class="organization">IBAT College, Dublin, Ireland</h6>
+                            <span class="years">Sep 2018 - Dec 2018</span>
+                        </div>
+                     </div>
+                    <!-- Experience Tab Ends -->
+
+                    <!-- Skills Tab Begins -->
+                     <div class="resume-tab" id="skills">
+                        <div class="bar-content">
+                            <div class="bar-heading">
+                                <div class="bar-title">
+                                    Frontend Development
+                                </div>
+                                <div class="bar-percentage">
+                                    87%
+                                </div>
+                            </div>
+                            <div class="bar-progress">
+                                <div class="progress-bar" style="width: 87%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-content">
+                            <div class="bar-heading">
+                                <div class="bar-title">
+                                    Coding Languages
+                                </div>
+                                <div class="bar-percentage">
+                                    85%
+                                </div>
+                            </div>
+                            <div class="bar-progress">
+                                <div class="progress-bar" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-content">
+                            <div class="bar-heading">
+                                <div class="bar-title">
+                                    E-Commerce
+                                </div>
+                                <div class="bar-percentage">
+                                    97%
+                                </div>
+                            </div>
+                            <div class="bar-progress">
+                                <div class="progress-bar" style="width: 97%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-content">
+                            <div class="bar-heading">
+                                <div class="bar-title">
+                                    UX Design
+                                </div>
+                                <div class="bar-percentage">
+                                    90%
+                                </div>
+                            </div>
+                            <div class="bar-progress">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="bar-content">
+                            <div class="bar-heading">
+                                <div class="bar-title">
+                                    UI Design
+                                </div>
+                                <div class="bar-percentage">
+                                    95%
+                                </div>
+                            </div>
+                            <div class="bar-progress">
+                                <div class="progress-bar" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                     </div>
+                    <!-- Skills Tab Ends -->
+                </div>
+                 <!-- Resume Body Ends -->
+            </div>
+        </div>
+    </section>
+    <!-- Resume Section Ends --> 
+
+     <!-- Services Section Begins -->
+    <section id="services">
+        <div class="portfolio-container">
+            <h2>
+                <strong>Custom Web Solutions</strong>🛠️
+            </h2>
+            <div class="service-row">
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="lni lni-website"></i>
+                    </div>
+                    <div class="service-content">
+                        <h6>Custom Web Development</h6>
+                        <p>I develop custom web applications using HTML5, CSS3, and JavaScript. I specialize in DOM manipulation, asynchronous programming, AJAX, and jQuery to create robust and secure solutions.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="lni lni-cart-full"></i>
+                    </div>
+                    <div class="service-content">
+                        <h6>E-Commerce Solutions</h6>
+                        <p>I optimize e-commerce stores on Shopify and Webflow for speed, SEO, and performance. Using Google Analytics, I continuously improve user experiences, enhance online sales and align strategies with business goals.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="icon">
+                        <i class="lni lni-ux"></i>
+                    </div>
+                    <div class="service-content">
+                        <h6>Web Design & UX/UI</h6>
+                        <p>I design web layouts with UX/UI principles, using Flexbox and responsive design for optimal performance. I ensure efficiency through debugging and optimization, integrating CSS Grid and animations for engaging designs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section Ends -->
+
+    <!-- Projects Section Begins -->
+    <section id="projects">
+        <div class="portfolio-container">
+            <div class="portfolio-row">
+                <!-- Projects Intro Begins -->
+                <div class="projects-intro">
+                    <h2><strong>My Projects</strong></h2>
+                    <div class="projects-text">
+                        <p>
+                            Discover projects that highlight my skills in HTML5, CSS3, JavaScript, and UX/UI design. Click the images to see how I apply responsive design and performance optimization in creating engaging solutions.
+                        </p>
+                    </div>
+                </div>
+                <!-- Projects Intro Ends -->
+
+                <!-- Projects Grid Begins -->
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <a href="https://lion-rental-car.netlify.app/" target="_blank" class="project-link">
+                            <img src="Img/project-one.png" alt="Project 1" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Project One</h3>
+                                    <p>"Lion Rental Car is a lion-themed car rental website I built using HTML5, CSS3, and JavaScript. It boasts a responsive design, ScrollReveal.js animations, easy navigation, and a seamless three-step rental process."
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <a href="https://sorrentoboutique.ie/" target="_blank" class="project-link">
+                            <img src="Img/project-two.jpg" alt="Project 2" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Project Two</h3>
+                                    <p>"Built an online store for Sorrento Boutique on Shopify. Customized the theme, integrated inventory management, and set up payment gateways. Ensured responsive design, SEO, analytics, and marketing tools."</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <a href="https://www.kandoo.ie/" target="_blank" class="project-link">
+                            <img src="Img/project-three.jpg" alt="Project 3" class="project-image">
+                            <div class="project-overlay">
+                                <div class="project-details">
+                                    <h3>Project Three</h3>
+                                    <p>"Created Kandoo's website on Webflow. Used a custom design, integrated a CMS, and ensured responsive layouts. Optimized for SEO and included interactive features."</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Projects Grid Ends -->
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section Ends -->
+
+      <!-- Contact Section Begins -->
+       <section id="contact">
+        <div class="portfolio-container">
+            <!-- Contact General Info Begins -->
+             <div class="contact-general">
+                <h2><strong>Get in touch</strong></h2>
+                <div class="contact-card">
+                    <div class="icon">
+                        <i class="lni lni-map-marker"></i>
+                    </div>
+                    <div class="contact-content">
+                        <h5>Location</h5>
+                        <span>Bistrița, Romania</span>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="icon">
+                        <i class="lni lni-phone-set"></i>
+                    </div>
+                    <div class="contact-content">
+                        <h5>Phone</h5>
+                        <span>+353 87 625 1247</span>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="icon">
+                        <i class="lni lni-envelope"></i>
+                    </div>
+                    <div class="contact-content">
+                        <h5>Email</h5>
+                        <span>sylviavarvari@gmail.com</span>
+                    </div>
+                </div>
+             </div>
+             <!-- Contact General Info Ends -->
+        </div>
+        <div class="portfolio-container">
+            <h2 style="text-align: center;"><strong>Get in Touch Today</strong></h2>
+            <div class="portfolio-row">
+                <!------ Main Contact Form Begins ------->
+                <form id="contact-form" method="POST" action="#">
+                    <div class="portfolio-row">
+                        <div class="name-email">
+                            <div class="input-wrapper">
+                                <label for="name">Name</label>
+                                <input type="text" class="input-control" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="input-wrapper">
+                                <label for="email">Email</label>
+                                <input type="email" class="input-control" name="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        <div class="input-subject">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="input-control" name="subject" placeholder="Enter your subject">
+                        </div>
+                        <div class="input-subject">
+                            <label for="message">Message</label>
+                            <textarea name="message" class="contact-msg" rows="9" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn-submit">Submit</button>
+                        <div class="loader">
+                            <i class="lni lni-spinner-solid"></i>
+                        </div>
+                        <div class="form-message"></div>
+                    </div>
+                </form>
+                <!------- Main Contact Form Ends -------->
+            </div>
+        </div>
+       </section>
+     <!-- Contact Section Ends -->
+
+     <!-- Footer Section Begins -->
+    <footer>
+        <div class="top-footer">
+            <p>Silvia Varvari </p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#about">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#resume">Resume</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#services">Services</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="https://www.instagram.com/sylviavarvari/" target="_blank"><i class="lni lni-instagram-original"></i></a></div>
+            <div class="icon"><a href="https://www.linkedin.com/in/silvia-varvari-997932314/" target="_blank"><i class="lni lni-linkedin"></i></i></a></div>
+            <div class="icon"><a href="https://www.facebook.com/profile.php?id=100007298328368" target="_blank"><i class="lni lni-facebook"></i></a></div>
+            <div class="icon"><a href="https://github.com/silviavarvari" target="_blank"><i class="lni lni-github"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#about" style="text-decoration: none;">Silvia Varvari</a> - All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+
+    <!-- Footer Section Ends -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
